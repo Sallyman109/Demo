@@ -1,0 +1,22 @@
+﻿<Window x:Class="TripCalculatorFrontEndWpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TripCalculatorFrontEndWpfApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="527" Width="807">
+    <Grid>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="205" Margin="10,19,0,0" VerticalAlignment="Top" Width="366"/>
+        <Label x:Name="SendTitleLabel" Content="Add User and Cost" HorizontalAlignment="Left" Margin="143,34,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="UserLabel" Content="User" HorizontalAlignment="Left" Margin="73,82,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="CostLabel" Content="Cost" HorizontalAlignment="Left" Margin="282,82,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="UserTextBox" HorizontalAlignment="Left" Height="23" Margin="32,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="CostTextBox" HorizontalAlignment="Left" Height="23" Margin="229,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="SendButton" Content="Add" HorizontalAlignment="Left" Margin="156,173,0,0" VerticalAlignment="Top" Width="75" Click="SendButton_Click"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="157" Margin="479,317,0,0" VerticalAlignment="Top" Width="296"/>
+        <Label x:Name="ReceiveTitleLabel" Content="Receive Moneys Owed" HorizontalAlignment="Left" Margin="567,341,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="ReceiveButton" Content="Receive" HorizontalAlignment="Left" Margin="595,415,0,0" VerticalAlignment="Top" Width="75" Click="ReceiveButton_Click"/>
+
+    </Grid>
+</Window>
